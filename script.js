@@ -6,19 +6,19 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado: "você apoia o racismo?",
         alternativas: [
             {
-                texto: "Alternativa 1 da pergunta 1",
+                texto: "sim eu apoio o movimento racista ",
                 afirmacao: [
-                    "afirmacao 1",
+                    "você realmente já ouviu  falar o que é o racismo?  A sua história e quantas milhares de pessoa foram prejudicadas e mortas? ",
                     "afirmacao 2"
                     ]
             },
             {
-                texto: "Alternativa 2 da pergunta 1",
+                texto: "não, sou contra o movimento racista ",
                 afirmacao: [
-                    "afirmacao 1",
+                    "que legal! concordamos que o racismo não é uma coisa boa ",
                     "afirmacao 2"
                     ]
             }           
@@ -26,19 +26,19 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "principal dano criado pelo rascimo",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 2",
+                texto:"fortalece a altoestima das vitimas",
                 afirmacao: [
-                    "afirmacao 1",
+                    "enfraquece a altoestisma, perpetuando sentimentos de inferioridade",
                     "afirmacao 2"
                     ]
             },
             {
-                texto: "Alternativa 2 da pergunta 2",
+                texto: "Contribui para exclusãõ social e marginalização de grupos minoridarios",
                 afirmacao: [
-                    "afirmacao 1",
+                    "reforça a desigualdade e esteriótipos discriminatórios",
                     "afirmacao 2"
                     ]
             }
