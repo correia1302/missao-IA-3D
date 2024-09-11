@@ -43,6 +43,8 @@ function mostraResultado(){
     caixaPerguntas.textContent = "Em 2049...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = ""; 
+    caixaResultado.classlist.add("mostrar");
+    botaoJogarNovamente.addEventListener("click", JogarNovamente);
 }
 
 function aleatorio(){}
