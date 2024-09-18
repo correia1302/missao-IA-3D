@@ -40,14 +40,14 @@ function respostaSelecionada(opcaoSelecionada){
 }
 
 function mostraResultado(){
-    caixaPerguntas.textContent = `Em 2049, $(nome)`;
+    caixaPerguntas.textContent = `Em 2049, ${nome}`;
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = ""; 
     caixaResultado.classlist.add("mostrar");
     botaoJogarNovamente.addEventListener("click", JogarNovamente);
 }
 
-function JogarNovamente {
+function JogarNovamente() {
     atual = 0;
     historiaFinal = "";
     caixaResultado.classList.remove("mostrar");
