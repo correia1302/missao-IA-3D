@@ -53,4 +53,11 @@ function JogarNovamente() {
     caixaResultado.classList.remove("mostrar");
     mostraPerguntas();
 }
-mostraPergunta();
+
+function subtituiNome() {
+    for (const pergunta of pergutas) {
+        pergunta.enunciado = pergunta.enunciado.replace(/você/g, nome);
+    }
+}
+
+substituiNome();
