@@ -1,61 +1,60 @@
-const perguntas = [
+export const perguntas = [
     {
-        enunciado: "você apoia o racismo?",
+        enunciado: "Você apoia o racismo?",
         alternativas: [
             {
-                texto: "sim eu apoio o movimento racista ",
+                texto: "Sim eu apoio o movimento racista",
                 afirmacao: [
-                    "você realmente já ouviu  falar o que é o racismo?  A sua história e quantas milhares de pessoa foram prejudicadas e mortas? ",
-                    "não gostei da sua resposta"
-                    ]
+                    "Você realmente ja ouviu falar o que é racismo? A sua historia e quantas milhares de pessoas foram prejudicadas"
+                ],
+                proxima: 1,  
             },
             {
-                texto: "não, sou contra o movimento racista ",
+                texto: "Não sou contra o movimento racista",
                 afirmacao: [
-                    "concordamos que o racismo não é uma coisa boa ",
-                    "que legal concordo com você"
-                    ]
-            }           
-            
+                    "concordamos que o racismo não é uma coisa boa."
+                ],
+                proxima: 1, 
+            },
         ]
     },
     {
-        enunciado: "principal dano criado pelo rascimo",
+        enunciado: "Qual é o principal dano causado pelo racismo?",
         alternativas: [
             {
-                texto:"fortalece a altoestima das vitimas",
+                texto: "Fortalece a autoestima das vitimas",
                 afirmacao: [
-                    "enfraquece a altoestisma, perpetuando sentimentos de inferioridade",
-                    "realmente a pessoa que sofre pelo racismo tem sentimentos "
-                    ]
+                   "Racismo enfraquece a autoestima, perpetuando sentimentos de inferioridade.",
+                ],
+                proxima: 2,  // 
             },
             {
-                texto: "Contribui para exclusãõ social e marginalização de grupos minoridarios",
+                texto: "Contribui para a exclusão social e marginalização de grupos minoridarios",
                 afirmacao: [
-                    "reforça a desigualdade e esteriótipos discriminatórios",
-                    "é uma coisa muito ruim psicológicamente"
-                    ]
-            }
+                    "Reforça a desigualdade e esteriótipos discriminatórios."
+                ],
+                proxima: 2,  // 
+            },
         ]
     },
     {
         enunciado: "O que caracteriza o racismo estrutural na sociedade?",
         alternativas: [
             {
-                texto:"Conjunto de práticas. habitos, situações e falas presentes no dia a dia da população que promove, mesmo sem intenção, o preconceito racial",
+                texto: "Conjunto de práticas", hábitos, situações e falas presentes no dia a dia da população que promove, mesmo sem intenção, o preconceito racial
                 afirmacao: [
-                    "concordo com isso",
-                    "essa é uma das principais características"
-                    ]
+                    "Concordo com isso",
+                ],
+                proxima: 3,  // 
             },
             {
-                texto:"Racismo estrutural é caracterizado",
+                texto: "O que é desigualdade de genêro e raça",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
-                    ]
-            }
-            
+                    "Previlégio de um genero em detrimento de outro, ou outros",
+                ],
+                proxima: 3,  // 
+            },
         ]
     },
-];
+    {
+        
