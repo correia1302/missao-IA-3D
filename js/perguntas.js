@@ -45,14 +45,14 @@ export const perguntas = [
                 afirmacao: [
                     "Concordo com isso",
                 ],
-                proxima: 3,  // 
+                 // 
             },
             {
                 texto: "O que é desigualdade de genêro e raça",
                 afirmacao: [
                     "Previlégio de um genero em detrimento de outro, ou outros",
                 ],
-                proxima: 3,  // 
+                 // 
             },
         ]
     },
