@@ -41,7 +41,7 @@ export const perguntas = [
         enunciado: "O que caracteriza o racismo estrutural na sociedade?",
         alternativas: [
             {
-                texto: "Conjunto de práticas", hábitos, situações e falas presentes no dia a dia da população que promove, mesmo sem intenção, o preconceito racial
+                texto: "Conjunto de práticas, hábitos, situações e falas presentes no dia a dia da população que promove, mesmo sem intenção, o preconceito racial",
                 afirmacao: [
                     "Concordo com isso",
                 ],
@@ -51,10 +51,9 @@ export const perguntas = [
                 texto: "O que é desigualdade de genêro e raça",
                 afirmacao: [
                     "Previlégio de um genero em detrimento de outro, ou outros",
-                ],
-                 // 
+                ]
             },
         ]
-    },
-    {
+    }
+];
         
